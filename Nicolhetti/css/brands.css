@@ -29,40 +29,62 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Estilo base de botón con Pixel Art */
 .button,
 button {
   display: inline-block;
   text-decoration: none;
-  height: 100%;
   text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-  width: 300px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 20px;
-  padding: 14px 12px 12px 12px;
+  width: 300px;
+  padding: 12px;
   letter-spacing: 0.1px;
-  white-space: wrap;
   outline: none;
-  border-radius: 8px;
   cursor: pointer;
   
-}     
+  /* Bordes gruesos y cuadrados para Pixel Art */
+  border: 4px solid #333; /* Borde oscuro para dar estilo retro */
+  border-radius: 0; /* Sin bordes redondeados para mantener el estilo pixelado */
+  
+  /* Fondo con colores retro */
+  background-color: #ffcc00; /* Fondo amarillo brillante estilo retro */
+  color: #333; /* Color de texto oscuro */
+  
+  /* Sombras cuadradas para dar efecto 3D pixelado */
+  box-shadow: 4px 4px 0 #333; /* Sombra oscura para dar profundidad */
+  
+  /* Transición de colores y sombras para que se vea el efecto al presionar */
+  transition: box-shadow 0.1s, transform 0.1s;
+}
+
+.button:hover,
 button:hover,
-.button:focus {
+.button:focus,
+button:focus {
+  /* Efecto hover retro */
+  box-shadow: none; /* Elimina sombra para simular "presionado" */
+  transform: translate(4px, 4px); /* Mueve el botón 4px hacia abajo y derecha */
   color: #212121;
-  border-color: #888;
-  outline: #7AB8FF solid 3px
+  outline: none;
 }
-.button.button-primary {
-  color: #fff;
-  filter: brightness(90%);
+
+/* Estilo específico para el botón primario */
+.button.button-primary,
+button.button-primary {
+  background-color: #ff5733; /* Un color rojo anaranjado retro para botón primario */
+  color: #fff; /* Texto blanco */
 }
+
 .button.button-primary:hover,
-.button.button-primary:focus {
-  color: #fff;
-  filter: brightness(90%);
+button.button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus {
+  background-color: #c74327; /* Oscurece el color de fondo al presionar */
+  transform: translate(4px, 4px);
+  box-shadow: none;
 }
+
 
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
