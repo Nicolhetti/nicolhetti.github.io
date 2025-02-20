@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+  font-display: swap;
+  font-family: 'Press Gothic';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/pressgothic.otf');
+}
 /*
 * littlelink V1
 * https://littlelink.com
@@ -91,10 +97,11 @@ html {
   color-scheme: light dark;
 }
 body {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: 'Press Gothic', sans-serif;
+  letter-spacing: 0.8px;
 }
 
 /* Estilos para la barra de desplazamiento */
@@ -119,18 +126,12 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 h1[role="heading"] {
-  font-family: 'Press Start 2P', sans-serif; /* Fuente estilo Pixel Art */
-  font-size: 36px; /* Tamaño grande para el título */
-  color: #FFCC00; /* Color amarillo para el título */
+  font-family: 'Press Gothic', sans-serif;
+  font-size: 36px;
+  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  margin: 20px 0;
-  
-  /* Sombra pixelada para dar un efecto retro */
-  text-shadow: 
-      2px 2px 0px #000,
-      4px 4px 0px #000,
-      6px 6px 0px #333;
+  margin: 10px 0;
 }
 
 h1 {
@@ -159,20 +160,22 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #2457F5;
+  color: #ffffff;
+  filter: brightness(60%);
 }
 a:hover {
-  color: #083BDA; 
+  text-shadow: #ffffff;
+  filter: brightness(100%); 
 }
 a:focus {
-  outline: #7AB8FF solid 2px;
+  outline: #ffffff solid 2px;
   border-radius: 2px;
 }         
 
 /* Link Color Dark Theme */
 @media (prefers-color-scheme: dark) {
   a {
-    color: #4899F7;
+    color: #ffffff;
 }
 a:hover {
   color: #7AB8FF;
