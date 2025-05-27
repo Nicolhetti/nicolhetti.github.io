@@ -9,6 +9,7 @@ const nextConfig = {
         pathname: "/avatars/**",
       },
     ],
+    unoptimized: true,
   },
 };
 
