@@ -127,7 +127,7 @@ button.button-primary:focus {
   font-family: "Press Gothic";
   font-style: normal;
   font-weight: 600;
-  src: url("@/public/fonts/pressgothic.otf");
+  src: url("../public/fonts/pressgothic.otf");
 }
 
 /* Grid –––––––––––––––––––––––––––––––––––––––––––––––––– */
