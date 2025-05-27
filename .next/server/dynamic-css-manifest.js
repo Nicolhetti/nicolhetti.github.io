@@ -1,1 +1,1 @@
-self.__DYNAMIC_CSS_MANIFEST="[]";
+self.__DYNAMIC_CSS_MANIFEST = "[]";
