@@ -10,7 +10,7 @@
     "format": "prettier -c ./",
     "format:fix": "prettier -w ./",
     "export": "next export",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "next build && gh-pages -d .next/static"
   },
   "dependencies": {
     "next": "15.3.2",
