@@ -74,13 +74,13 @@ export default function Home() {
 
 const links = [
   {
-    url: "https://www.nicolhetti-projects.com.ar/",
+    url: "https://www.nicolhetti.com.ar/",
     icon: "/images/icons/generic-website.svg",
     alt: "Website Icon",
-    label: "Website",
+    label: "NicolhettiGames",
   },
   {
-    url: "https://lofi.nicolhetti-projects.com.ar/",
+    url: "https://lofi.nicolhetti.com.ar/",
     icon: "/images/icons/generic-website.svg",
     alt: "Website Icon",
     label: "Radio LoFi",
@@ -92,10 +92,16 @@ const links = [
     label: "M3U8 Player",
   },
   {
-    url: "https://ird.nicolhetti-projects.com.ar/",
+    url: "https://ird.nicolhetti.com.ar/",
     icon: "/images/icons/generic-website.svg",
     alt: "Website Icon",
     label: "Ig Reels Downloader",
+  },
+  {
+    url: "https://ctc.nicolhetti.com.ar/",
+    icon: "/images/icons/generic-website.svg",
+    alt: "Website Icon",
+    label: "Discord Emojis",
   },
   {
     url: "https://discord.gg/PtxqHxKKE6",
@@ -188,7 +194,7 @@ const links = [
     label: "YouTube",
   },
   {
-    url: "mailto:nicolhetti_boss@nicolhetti-projects.com.ar",
+    url: "mailto:contacto@nicolhetti.com.ar",
     icon: "/images/icons/generic-email-alt.svg",
     alt: "Email Icon",
     label: "Email",
